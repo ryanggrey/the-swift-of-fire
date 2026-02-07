@@ -1,0 +1,107 @@
+[
+  {
+    "id": "prod_001",
+    "slug": "rainbow-shaker",
+    "name": "Rainbow Shaker",
+    "description": "A colourful handmade shaker filled with rice — great sound, bright colours!",
+    "longDescription": "The Rainbow Shaker is handmade by Isaac using recycled containers and filled with rice to give a crisp, satisfying shake sound. Each one is painted in bright colours and sealed tight so nothing falls out. Perfect for keeping rhythm in a band, playing along to songs, or just having fun making noise!",
+    "madeFrom": "Recycled container, rice filling, non-toxic paint, sealed lid",
+    "goodFor": "Keeping rhythm, school bands, singing along, musical fun",
+    "category": "shakers",
+    "price": 500,
+    "variants": [
+      { "id": "var_001a", "label": "Red Flame", "type": "colour", "value": "#E53E3E" },
+      { "id": "var_001b", "label": "Blue Lightning", "type": "colour", "value": "#3B82F6" },
+      { "id": "var_001c", "label": "Green Thunder", "type": "colour", "value": "#22C55E" }
+    ],
+    "images": [],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "prod_002",
+    "slug": "rock-star-shaker",
+    "name": "Rock Star Shaker",
+    "description": "A bold black-and-red shaker with a rock star vibe. Sounds awesome!",
+    "longDescription": "The Rock Star Shaker is the coolest shaker in the range. Painted in jet black with red lightning bolt details, it looks like something a real rock star would use. Filled with a mix of rice and small beads for a fuller, punchier shake sound. Handmade and hand-decorated by Isaac.",
+    "madeFrom": "Recycled container, rice & bead filling, non-toxic paint, sealed lid",
+    "goodFor": "Rock bands, percussion practice, school performances",
+    "category": "shakers",
+    "price": 600,
+    "variants": [
+      { "id": "var_002a", "label": "Black Lightning", "type": "colour", "value": "#1A1A2E" },
+      { "id": "var_002b", "label": "Fire Red", "type": "colour", "value": "#DC2626" }
+    ],
+    "images": [],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "prod_003",
+    "slug": "mini-shaker-set",
+    "name": "Mini Shaker Set (3 Pack)",
+    "description": "Three little shakers in different colours — perfect for sharing or classroom use.",
+    "longDescription": "This set of three mini shakers is great for sharing with friends or using in a classroom. Each shaker is a different colour and makes a slightly different sound thanks to different fillings (rice, lentils, and small beads). They come as a set and are a brilliant gift for young musicians.",
+    "madeFrom": "Recycled mini containers, mixed fillings, non-toxic paint",
+    "goodFor": "Classroom music, gifts, group percussion, toddler-friendly",
+    "category": "shakers",
+    "price": 800,
+    "variants": [
+      { "id": "var_003a", "label": "Rainbow Mix", "type": "colour", "value": "#DD6B20" }
+    ],
+    "images": [],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "prod_004",
+    "slug": "thunder-stomp-box",
+    "name": "Thunder Stomp Box",
+    "description": "A wooden stomp box that makes a deep thud — like a bass drum you play with your foot!",
+    "longDescription": "The Thunder Stomp Box is a handmade wooden percussion box that you play by stomping your foot on it. It produces a deep, punchy thud that sounds like a kick drum. Great for acoustic jams, busking, or adding rhythm to any song. Built from solid wood with a rubber non-slip base. Decorated with Isaac's signature flame design.",
+    "madeFrom": "Solid wood, rubber non-slip base, hand-painted design",
+    "goodFor": "Acoustic bands, busking, solo performers, rhythm practice",
+    "category": "stomp-boxes",
+    "price": 1500,
+    "variants": [
+      { "id": "var_004a", "label": "Classic Flame", "type": "design", "value": "flame" },
+      { "id": "var_004b", "label": "Lightning Strike", "type": "design", "value": "lightning" }
+    ],
+    "images": [],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "prod_005",
+    "slug": "mega-stomp-box",
+    "name": "Mega Stomp Box",
+    "description": "The big one! Extra loud stomp box with deeper bass — for serious young rockers.",
+    "longDescription": "The Mega Stomp Box is the deluxe version of our Thunder Stomp Box. It's bigger, louder, and has a deeper bass tone. Made from thicker wood with an internal sound chamber for maximum volume. Perfect for performing or recording. Each one is hand-decorated with a unique design by Isaac.",
+    "madeFrom": "Thick solid wood, internal sound chamber, rubber base, hand-painted",
+    "goodFor": "Performances, recording, band practice, serious percussion",
+    "category": "stomp-boxes",
+    "price": 2500,
+    "variants": [
+      { "id": "var_005a", "label": "Inferno", "type": "design", "value": "inferno" },
+      { "id": "var_005b", "label": "Midnight Storm", "type": "design", "value": "storm" }
+    ],
+    "images": [],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "prod_006",
+    "slug": "upcycled-guitar",
+    "name": "Upcycled Custom Guitar",
+    "description": "A second-hand guitar given new life with custom vinyl skins and decals. Coming soon!",
+    "longDescription": "We take second-hand guitars and make them awesome again! Each upcycled guitar gets a full clean-up, new strings, and a custom vinyl skin or decal designed by Isaac. Every guitar is one-of-a-kind. This product is coming soon — sign up to be notified when the first ones are ready!",
+    "madeFrom": "Second-hand guitar, new strings, custom vinyl skin/decals",
+    "goodFor": "Beginner guitarists, collectors of unique instruments, gifts",
+    "category": "guitars",
+    "price": 0,
+    "variants": [],
+    "images": [],
+    "inStock": false,
+    "featured": false
+  }
+]
