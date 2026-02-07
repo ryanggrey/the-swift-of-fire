@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { stripe } from "@/lib/stripe";
+import { getStripe } from "@/lib/stripe";
 import { getProductBySlug } from "@/lib/products";
 
 interface CheckoutItem {
@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
       };
     });
 
-    const session = await stripe.checkout.sessions.create({
+    const session = await getStripe().checkout.sessions.create({
       line_items,
       mode: "payment",
       success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,

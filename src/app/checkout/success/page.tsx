@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { stripe } from "@/lib/stripe";
+import { getStripe } from "@/lib/stripe";
 import { Button } from "@/components/ui/button";
 import { ClearCartOnSuccess } from "@/components/checkout/clear-cart-on-success";
 
@@ -25,7 +25,7 @@ export default async function CheckoutSuccessPage({
 
   let session;
   try {
-    session = await stripe.checkout.sessions.retrieve(session_id);
+    session = await getStripe().checkout.sessions.retrieve(session_id);
   } catch {
     return (
       <div className="container-page py-20 text-center">
